@@ -11,7 +11,7 @@ export class TestserviceService {
   constructor(private http: Http) { }
 
   getMEDOrders() {
-    var url = 'https://stageservices.essilorlink.com/Inventory/V_C/AvailableQuantityService/MED.Service/api/order/MED-189';
+    var url = '/MED.Service/api/order/MED-189';
 
     return this.http.get(url)
       .map((res: Response) => res.json())
