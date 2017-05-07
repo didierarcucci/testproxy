@@ -1,0 +1,8 @@
+{
+    "/MED.Service/*": {
+        "target": "https://stageservices.essilorlink.com/Inventory/V_C/AvailableQuantityService",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
